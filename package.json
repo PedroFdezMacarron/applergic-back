@@ -8,7 +8,8 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "users-seed": "node ./src/seeds/users.seed.js",
-    "foods-seed": "node ./src/seeds/foods.seed.js"
+    "products-seed": "node ./src/seeds/products.seed.js",
+    "components-seed": "node ./src/seeds/components.seed.js"
   },
   "keywords": [],
   "author": "",
