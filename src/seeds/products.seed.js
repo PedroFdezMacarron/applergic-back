@@ -1,10 +1,10 @@
 const mongoose = require("mongoose");
-const Food= require('../api/models/food.model');
+const Product= require('../api/models/product.model');
 const dotenv = require('dotenv');
 dotenv.config();
 const DB_URL = process.env.DB_URL;
 
-const foods=[
+const products=[
     {
       "name": "Galletas de avena orgánicas",
       "brand": "Green Valley",
@@ -350,16 +350,16 @@ mongoose.connect( DB_URL,{
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(async () => {
-    const allFood = await Food.find();
-    if(allFood.length > 0) {
-        await Food.collection.drop();
-        console.log('Foods Delete');
+    const allProduct = await Product.find();
+    if(allProduct.length > 0) {
+        await Product.collection.drop();
+        console.log('Products Delete');
     }
-}).catch((error) => console.log("error Delete foods", error))
+}).catch((error) => console.log("error Delete products", error))
 .then(async () => {
-    const foodMap = foods.map((food) => new Food(food));
-    await Food.insertMany(foodMap);
-    console.log("insert foods")
+    const productMap = products.map((product) => new Product(product));
+    await Product.insertMany(productMap);
+    console.log("insert products")
 })
-.catch((error) => console.log("error insert food", error))
+.catch((error) => console.log("error insert product", error))
 .finally(() => mongoose.disconnect());

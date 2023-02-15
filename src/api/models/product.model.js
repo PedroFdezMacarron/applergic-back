@@ -2,13 +2,13 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
-const foodSchema = new Schema({
+const productSchema = new Schema({
     name:{type: 'string', required: true},
     brand:{type: 'string', required: true},
     EAN: {type: 'number', required: true},
     components: {type: 'array', required: true},
 }
 )
-const Food = mongoose.model('food', foodSchema);
+const Product = mongoose.model('product', productSchema);
 
-module.exports = Food;
+module.exports = Product;
