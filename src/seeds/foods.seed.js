@@ -6,10 +6,10 @@ const DB_URL = process.env.DB_URL;
 
 const foods=[
     {
-      "nombre": "Galletas de avena orgánicas",
-      "marca": "Green Valley",
-      "ean": "2001234567890",
-      "componentes": [
+      "name": "Galletas de avena orgánicas",
+      "brand": "Green Valley",
+      "EAN": "2001234567890",
+      "components": [
         "Harina de avena orgánica",
         "Azúcar de caña orgánico",
         "Aceite de girasol orgánico",
@@ -18,10 +18,10 @@ const foods=[
       ]
     },
     {
-      "nombre": "Salsa de tomate casera",
-      "marca": "Nonna's Kitchen",
-      "ean": "2002345678901",
-      "componentes": [
+      "name": "Salsa de tomate casera",
+      "brand": "Nonna's Kitchen",
+      "EAN": "2002345678901",
+      "components": [
         "Tomates frescos",
         "Cebolla",
         "Ajo",
@@ -31,10 +31,10 @@ const foods=[
       ]
     },
     {
-      "nombre": "Cereal de miel y nueces",
-      "marca": "Honey Nutty",
-      "ean": "2003456789012",
-      "componentes": [
+      "name": "Cereal de miel y nueces",
+      "brand": "Honey Nutty",
+      "EAN": "2003456789012",
+      "components": [
         "Avena integral",
         "Nueces",
         "Miel",
@@ -43,10 +43,10 @@ const foods=[
       ]
     },
     {
-      "nombre": "Yogurt griego de fresa",
-      "marca": "Olympia Farms",
-      "ean": "2004567890123",
-      "componentes": [
+      "name": "Yogurt griego de fresa",
+      "brand": "Olympia Farms",
+      "EAN": "2004567890123",
+      "components": [
         "Leche entera",
         "Cultivos de yogur",
         "Fresas",
@@ -57,30 +57,30 @@ const foods=[
       ]
     },
     {
-      "nombre": "Atún enlatado en aceite",
-      "marca": "Ocean Catch",
-      "ean": "2005678901234",
-      "componentes": [
+      "name": "Atún enlatado en aceite",
+      "brand": "OcEAN Catch",
+      "EAN": "2005678901234",
+      "components": [
         "Atún",
         "Aceite de girasol",
         "Sal"
       ]
     },
     {
-      "nombre": "Jugo de naranja recién exprimido",
-      "marca": "Sunburst Farms",
-      "ean": "2006789012345",
-      "componentes": [
+      "name": "Jugo de naranja recién exprimido",
+      "brand": "Sunburst Farms",
+      "EAN": "2006789012345",
+      "components": [
         "Naranjas frescas",
         "Agua",
         "Azúcar"
       ]
     },
     {
-      "nombre": "Sopa de tomate enlatada",
-      "marca": "Big Kettle",
-      "ean": "2007890123456",
-      "componentes": [
+      "name": "Sopa de tomate enlatada",
+      "brand": "Big Kettle",
+      "EAN": "2007890123456",
+      "components": [
         "Tomates",
         "Agua",
         "Cebolla",
@@ -92,10 +92,10 @@ const foods=[
       ]
     },
     {
-      "nombre": "Sándwich de pollo a la parrilla",
-      "marca": "Grill King",
-      "ean": "2008901234567",
-      "componentes": [
+      "name": "Sándwich de pollo a la parrilla",
+      "brand": "Grill King",
+      "EAN": "2008901234567",
+      "components": [
         "Pan de trigo",
         "Pechuga de pollo a la parrilla",
         "Queso suizo",
@@ -105,10 +105,10 @@ const foods=[
       ]
     },
     {
-      "nombre": "Helado de vainilla con chispas de chocolate",
-      "marca": "Sweet Treats",
-      "ean": "2009012345678",
-      "componentes": [
+      "name": "Helado de vainilla con chispas de chocolate",
+      "brand": "Sweet Treats",
+      "EAN": "2009012345678",
+      "components": [
         "Crema",
         "Leche",
         "Vainilla",
@@ -119,29 +119,29 @@ const foods=[
       ]
     },
     {
-      "nombre": "Mantequilla de maní natural",
-      "marca": "Nutty Buddy",
-      "ean": "2000123456789",
-      "componentes": [
+      "name": "Mantequilla de maní natural",
+      "brand": "Nutty Buddy",
+      "EAN": "2000123456789",
+      "components": [
         "Maní tostado",
         "Aceite de maní",
         "Sal"
       ]
     },
     {
-      "nombre": "Pasta de trigo integral",
-      "marca": "Fiberlicious",
-      "ean": "2001234567890",
-      "componentes": [
+      "name": "Pasta de trigo integral",
+      "brand": "Fiberlicious",
+      "EAN": "2001234567890",
+      "components": [
         "Harina de trigo integral",
         "Agua"
       ]
     },
     {
-      "nombre": "Hamburguesa vegetariana con queso cheddar",
-      "marca": "Green Garden",
-      "ean": "2002345678901",
-      "componentes": [
+      "name": "Hamburguesa vegetariana con queso cheddar",
+      "brand": "Green Garden",
+      "EAN": "2002345678901",
+      "components": [
         "Hamburguesa vegetariana",
         "Pan de hamburguesa",
         "Queso cheddar",
@@ -151,29 +151,29 @@ const foods=[
       ]
     },
     {
-      "nombre": "Leche descremada orgánica",
-      "marca": "Organic Dairy",
-      "ean": "2003456789012",
-      "componentes": [
+      "name": "Leche descremada orgánica",
+      "brand": "Organic Dairy",
+      "EAN": "2003456789012",
+      "components": [
         "Leche descremada orgánica",
         "Vitamina A",
         "Vitamina D"
       ]
     },
     {
-      "nombre": "Café molido para espresso",
-      "marca": "Dark Roast",
-      "ean": "2004567890123",
-      "componentes": [
+      "name": "Café molido para espresso",
+      "brand": "Dark Roast",
+      "EAN": "2004567890123",
+      "components": [
         "Café de grano",
         "Agua"
     ]
     },
     {
-      "nombre": "Tortilla de trigo",
-      "marca": "Tortilla Time",
-      "ean": "2005678901234",
-      "componentes": [
+      "name": "Tortilla de trigo",
+      "brand": "Tortilla Time",
+      "EAN": "2005678901234",
+      "components": [
         "Harina de trigo",
         "Agua",
         "Aceite de canola",
@@ -181,10 +181,10 @@ const foods=[
     ]
     },
     {
-      "nombre": "Queso cheddar rallado",
-      "marca": "Cheesy Goodness",
-      "ean": "2006789012345",
-      "componentes": [
+      "name": "Queso cheddar rallado",
+      "brand": "Cheesy Goodness",
+      "EAN": "2006789012345",
+      "components": [
         "Leche",
         "Cultivos de queso",
         "Sal",
@@ -193,10 +193,10 @@ const foods=[
     ]
     },
     {
-      "nombre": "Ensalada de atún",
-      "marca": "Seafood Delight",
-      "ean": "2007890123456",
-      "componentes": [
+      "name": "Ensalada de atún",
+      "brand": "Seafood Delight",
+      "EAN": "2007890123456",
+      "components": [
         "Atún",
         "Huevos",
         "Cebolla",
@@ -209,10 +209,10 @@ const foods=[
       ]
     },
     {
-      "nombre": "Palomitas de maíz con sabor a mantequilla",
-      "marca": "Buttery Pop",
-      "ean": "2008901234567",
-      "componentes": [
+      "name": "Palomitas de maíz con sabor a mantequilla",
+      "brand": "Buttery Pop",
+      "EAN": "2008901234567",
+      "components": [
         "Maíz para palomitas",
         "Aceite de canola",
         "Sal",
@@ -221,10 +221,10 @@ const foods=[
       ]
     },
     {
-      "nombre": "Aceitunas verdes rellenas de pimiento",
-      "marca": "Mediterranean Delights",
-      "ean": "2009012345678",
-      "componentes": [
+      "name": "Aceitunas verdes rellenas de pimiento",
+      "brand": "MediterranEAN Delights",
+      "EAN": "2009012345678",
+      "components": [
         "Aceitunas verdes",
         "Pimiento",
         "Sal",
@@ -232,10 +232,10 @@ const foods=[
       ]
     },
     {
-      "nombre": "Galletas de avena",
-      "marca": "Oatmeal Bliss",
-      "ean": "2000123456789",
-      "componentes": [
+      "name": "Galletas de avena",
+      "brand": "Oatmeal Bliss",
+      "EAN": "2000123456789",
+      "components": [
         "Avena",
         "Harina de trigo",
         "Azúcar",
@@ -247,10 +247,10 @@ const foods=[
       ]
     },
     {
-      "nombre": "Leche de almendra sin azúcar",
-      "marca": "Almond Breeze",
-      "ean": "2012345678901",
-      "componentes": [
+      "name": "Leche de almendra sin azúcar",
+      "brand": "Almond Breeze",
+      "EAN": "2012345678901",
+      "components": [
         "Agua filtrada",
         "Almendras",
         "Carbonato de calcio",
@@ -263,10 +263,10 @@ const foods=[
       ]
     },
     {
-      "nombre": "Salsa de tomate",
-      "marca": "Tomato Time",
-      "ean": "2013456789012",
-      "componentes": [
+      "name": "Salsa de tomate",
+      "brand": "Tomato Time",
+      "EAN": "2013456789012",
+      "components": [
         "Tomates",
         "Cebolla",
         "Ajo",
@@ -279,10 +279,10 @@ const foods=[
       ]
     },
     {
-      "nombre": "Cereal de arroz inflado",
-      "marca": "Rice Puffs",
-      "ean": "2014567890123",
-      "componentes": [
+      "name": "Cereal de arroz inflado",
+      "brand": "Rice Puffs",
+      "EAN": "2014567890123",
+      "components": [
         "Arroz integral",
         "Azúcar",
         "Sal",
@@ -290,10 +290,10 @@ const foods=[
       ]
     },
     {
-      "nombre": "Sopa de pollo",
-      "marca": "Chicken Soup Co.",
-      "ean": "2015678901234",
-      "componentes": [
+      "name": "Sopa de pollo",
+      "brand": "Chicken Soup Co.",
+      "EAN": "2015678901234",
+      "components": [
         "Caldo de pollo",
         "Carne de pollo",
         "Zanahorias",
@@ -305,10 +305,10 @@ const foods=[
       ]
     },
     {
-      "nombre": "Gelatina de frutas",
-      "marca": "Fruit Jellies",
-      "ean": "2016789012345",
-      "componentes": [
+      "name": "Gelatina de frutas",
+      "brand": "Fruit Jellies",
+      "EAN": "2016789012345",
+      "components": [
         "Agua",
         "Azúcar",
         "Gelatina",
@@ -319,10 +319,10 @@ const foods=[
       ]
     },
     {
-      "nombre": "Pan integral",
-      "marca": "Whole Wheat Bakery",
-      "ean": "2017890123456",
-      "componentes": [
+      "name": "Pan integral",
+      "brand": "Whole Wheat Bakery",
+      "EAN": "2017890123456",
+      "components": [
         "Harina de trigo integral",
         "Agua",
         "Levadura",
@@ -332,10 +332,10 @@ const foods=[
       ]
     },
     {
-      "nombre": "Mermelada de fresa",
-      "marca": "Berry Good",
-      "ean": "2018901234567",
-      "componentes": [
+      "name": "Mermelada de fresa",
+      "brand": "Berry Good",
+      "EAN": "2018901234567",
+      "components": [
         "Fresas",
         "Azúcar",
         "Pectina",
