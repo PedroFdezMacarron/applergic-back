@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 const cors = require('cors');
 
 dotenv.config();
-const foodsRouter = require('./src/api/routes/foods.routes');
+const productsRouter = require('./src/api/routes/products.routes');
 const usersRouter = require('./src/api/routes/user.routes');
 dotenv.config();
 const { urlencoded } = require('express');
@@ -18,7 +18,7 @@ app.use(cors());
 
 app.use(express.urlencoded({extended: true}));
 
-app.use('/foods', foodsRouter);
+app.use('/products', productsRouter);
 
 app.use('/users', usersRouter);
 app.listen(PORT, () => console.log('listening on port', PORT));
