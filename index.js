@@ -4,6 +4,8 @@ const cors = require('cors');
 
 dotenv.config();
 const productsRouter = require('./src/api/routes/products.routes');
+const componentsRouter = require('./src/api/routes/components.routes');
+
 const usersRouter = require('./src/api/routes/user.routes');
 dotenv.config();
 const { urlencoded } = require('express');
@@ -19,7 +21,10 @@ app.use(cors());
 app.use(express.urlencoded({extended: true}));
 
 app.use('/products', productsRouter);
+app.use('/components', componentsRouter);
 
 app.use('/users', usersRouter);
+
+
 app.listen(PORT, () => console.log('listening on port', PORT));
 
