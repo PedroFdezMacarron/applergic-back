@@ -22,7 +22,6 @@ app.use(express.urlencoded({extended: true}));
 
 app.use('/products', productsRouter);
 app.use('/components', componentsRouter);
-
 app.use('/users', usersRouter);
 
 

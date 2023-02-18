@@ -52,7 +52,27 @@ const login = async(req, res, next) => {
     }
 }
 
+const update = async(req, res, next) => {
+    console.log('actualizando usuario fase 1...');
+    try {
+        const newUserData = new User(req.body);
+        const actualUser = await User.findOne({email: req.body.email});                
+        console.log('actualizando usuario fase 2...');
+        console.log(actualUser);
+        if(actualUser.email === req.body.email){
+            console.log('actualizando usuario fase 3...');
+            actualUser.diaryProducts = [...newUserData.diaryProducts];
+            actualUser.intolerances = [...newUserData.intolerances];
+            const createdUser = await actualUser.save();
+            return res.status(200).json(createdUser);
+        }else{
+            return next()             
+        }
+    } catch (error) {
+        return res.status(501).json(error);
+    }
+}
 
 
 
-module.exports = {register, login}
+module.exports = {register, login, update}

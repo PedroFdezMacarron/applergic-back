@@ -13,7 +13,8 @@ const userSchema = new Schema({
   contactEmail: { type: String },
   contactPhone: { type: String },
   insuranceCompany: { type: String },
-  intolerances: [ {type: Schema.Types.ObjectId, ref: 'component'}]
+  intolerances: [ {type: Schema.Types.ObjectId, ref: 'component'}],
+  diaryProducts: [ {type: Schema.Types.ObjectId, ref: 'product'}]
 });
 
 const User = mongoose.model("user", userSchema);

@@ -12,7 +12,8 @@ const users = [
 	"password": "$2b$10$BB6BooSb1NSz7GV41CDVseZjAesm4J.K.JAoM4XushYJ.uvrHKAZ6",
 	"photourl": "",
 	"_id": "63e54e7730c2e623c675f5b3",
-  "intolerances": ["63ecc4b1f5b83895ecf0b0fd","63ecc4b1f5b83895ecf0b101"],   
+  "intolerances": ["63ecc4b1f5b83895ecf0b0fd","63ecc4b1f5b83895ecf0b101"],  
+  "diaryProducts":["63f0a8786257b357b1023e7f","63f0a8786257b357b1023e80","63f0a8786257b357b1023e81"],
   },
   {
     "name": "Pedro Fernández",
@@ -22,6 +23,7 @@ const users = [
     "photourl":"",
     "_id": "63e3fec5be74d20951221460", 
     "intolerances": ["63ecc4b1f5b83895ecf0b0f7","63ecc4b1f5b83895ecf0b0f9"],
+    "diaryProducts":["63f0a8786257b357b1023e7f","63f0a8786257b357b1023e80","63f0a8786257b357b1023e81"],
   },
   {
 	"name": "Alba Mozas",
@@ -31,6 +33,7 @@ const users = [
 	"photourl": "",
 	"_id": "63e5504972314778f6e32de9",
   "intolerances": ["63ecc4b1f5b83895ecf0b0f2","63ecc4b1f5b83895ecf0b0f5","63ecc4b1f5b83895ecf0b103","63ecc4b1f5b83895ecf0b105","63ecc4b1f5b83895ecf0b0e7","63ecc4b1f5b83895ecf0b10b"],
+  "diaryProducts":["63f0a8786257b357b1023e7f","63f0a8786257b357b1023e80","63f0a8786257b357b1023e81"],
 },
 {
 	"name": "Marcos Fraile",
@@ -40,6 +43,7 @@ const users = [
 	"photourl": "",
 	"_id": "63e5508272314778f6e32dec",
   "intolerances": ["63ecc4b1f5b83895ecf0b0e4","63ecc4b1f5b83895ecf0b0e8","63ecc4b1f5b83895ecf0b100"],
+  "diaryProducts":["63f0a8786257b357b1023e7f","63f0a8786257b357b1023e80","63f0a8786257b357b1023e81"],
 }
   
 ];
@@ -50,9 +54,9 @@ mongoose.connect(DB_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   }).then(async () => {
-    const allUser = await users.find();
+    const allUser = await User.find();
     if (allUser.length > 0) {
-      await users.collection.drop();
+      await User.collection.drop();
       console.log("Users Delete");
     }
   }).catch((error) => console.log("error Delete users", error))
