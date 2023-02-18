@@ -9,6 +9,7 @@ const products=[
       "name": "Galletas de avena orgánicas",
       "brand": "Green Valley",
       "EAN": "2001234567890",
+      "img":"https://m.media-amazon.com/images/I/81EfaZgPMTL._AC_UF894,1000_QL80_.jpg",
       "components": [
         "Harina de avena orgánica",
         "Azúcar de caña orgánico",
@@ -21,6 +22,7 @@ const products=[
       "name": "Salsa de tomate casera",
       "brand": "Nonna's Kitchen",
       "EAN": "2002345678901",
+      "img":"https://www.nesquik.es/sites/default/files/2022-03/NQ_POT_390g_FRONT.png",
       "components": [
         "Tomates frescos",
         "Cebolla",
@@ -34,6 +36,7 @@ const products=[
       "name": "Cereal de miel y nueces",
       "brand": "Honey Nutty",
       "EAN": "2003456789012",
+      "img":"https://www.nesquik.es/sites/default/files/2022-03/NQ_POT_390g_FRONT.png",
       "components": [
         "Avena integral",
         "Nueces",
@@ -46,6 +49,7 @@ const products=[
       "name": "Yogurt griego de fresa",
       "brand": "Olympia Farms",
       "EAN": "2004567890123",
+      "img":"https://www.nesquik.es/sites/default/files/2022-03/NQ_POT_390g_FRONT.png",
       "components": [
         "Leche entera",
         "Cultivos de yogur",
