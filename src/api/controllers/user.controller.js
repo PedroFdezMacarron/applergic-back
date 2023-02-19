@@ -58,7 +58,7 @@ const update = async(req, res, next) => {
         const newUserData = new User(req.body);
         const actualUser = await User.findOne({email: req.body.email});                
         console.log('actualizando usuario fase 2...');
-        console.log(actualUser);
+        // console.log(actualUser);
         if(actualUser.email === req.body.email){
             console.log('actualizando usuario fase 3...');
             actualUser.diaryProducts = [...newUserData.diaryProducts];
