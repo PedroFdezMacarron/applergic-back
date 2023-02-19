@@ -14,7 +14,7 @@ const userSchema = new Schema({
   contactPhone: { type: String },
   insuranceCompany: { type: String },
   intolerances: [ {type: Schema.Types.ObjectId, ref: 'component'}],
-  diaryProducts: [ {type: Schema.Types.ObjectId, ref: 'product'}]
+  diaryProducts: [{ id:{type: Schema.Types.ObjectId, ref: 'product'} , notes:{type: String} } ]
 });
 
 const User = mongoose.model("user", userSchema);
