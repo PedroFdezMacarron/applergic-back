@@ -5,14 +5,21 @@ dotenv.config();
 const DB_URL = process.env.DB_URL;
 
 const components = [
-    { name: "Aceitunas negras" },
-    { name: "Aceitunas verdes" },
-    { name: "Acidulante" },
-    { name: "Alcaparras" },
-    { name: "Anchoas" },
-    { name: "Azúcar" },
-    { name: "Azúcar glas" },
-    { name: "Azúcar moreno" },
+{   letter: "A",
+    components: [
+      { name: "Aceitunas negras" },      
+      { name: "Aceitunas verdes" },      
+      { name: "Acidulante" },      
+      { name: "Alcaparras" },      
+      { name: "Anchoas" },      
+      { name: "Azúcar" },      
+      { name: "Azúcar glas" },      
+      { name: "Azúcar moreno" },
+    ]
+},
+{
+  letter: "C",
+  components: [
     { name: "Caldo de pollo" },
     { name: "Carne de cerdo" },
     { name: "Carne de vacuno" },
@@ -22,30 +29,92 @@ const components = [
     { name: "Chorizo" },
     { name: "Chocolate negro" },
     { name: "Condimentos" },
+  ]
+},
+{
+  letter: "E",
+  components: [
     { name: "Especias" },
+  ]
+},
+{
+  letter: "G",
+  components: [
     { name: "Guisantes" },
+  ]
+},
+{
+  letter: "H",
+  components: [
     { name: "Harina de almendras" },
     { name: "Harina de trigo" },
+  ]
+},
+{
+  letter: "J",
+  components: [
     { name: "Jamón serrano" },
+  ]
+},
+{
+  letter: "L",
+  components: [
     { name: "Leche" },
     { name: "Levadura" },
     { name: "Levadura en polvo" },
+  ]
+},
+{
+  letter: "M",
+  components: [
     { name: "Mantequilla" },
     { name: "Miel" },
+  ]
+},
+{
+  letter: "P",
+  components: [
     { name: "Pimentón" },
     { name: "Pimiento rojo" },
     { name: "Pimiento verde" },
     { name: "Pollo" },
+  ]
+},
+{
+  letter: "Q",
+  components: [
     { name: "Queso" },
+  ]
+},
+{
+  letter: "S",
+  components: [
     { name: "Sal" },
     { name: "Sal marina" },
     { name: "Salchicha" },
+  ]
+},
+{
+  letter: "T",
+  components: [
     { name: "Tomate" },
+  ]
+},
+{
+  letter: "V",
+  components: [
     { name: "Vainilla" },
     { name: "Vitamina A" },
     { name: "Vitamina B" },
+  ]
+},
+{
+  letter: "Z",
+  components: [
     { name: "Zanahoria" },
-];
+  ]
+},
+]
 
 mongoose.set("strictQuery", false);
 
