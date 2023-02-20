@@ -6,6 +6,7 @@ const DB_URL = process.env.DB_URL;
 
 const products=[
     {
+      "_id": "63f34eabfb3892b2cfad604c",
       "name": "Galletas de avena orgánicas",
       "brand": "Green Valley",
       "EAN": "2001234567890",
@@ -19,6 +20,7 @@ const products=[
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad604d",
       "name": "Salsa de tomate casera",
       "brand": "Nonna's Kitchen",
       "EAN": "2002345678901",
@@ -31,6 +33,7 @@ const products=[
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad604e",
       "name": "Cereal de miel y nueces",
       "brand": "Honey Nutty",
       "EAN": "2003456789012",
@@ -43,6 +46,7 @@ const products=[
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad604f",
       "name": "Yogurt griego de fresa",
       "brand": "Olympia Farms",
       "EAN": "2004567890123",
@@ -55,6 +59,7 @@ const products=[
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6050",
       "name": "Atún enlatado en aceite",
       "brand": "OcEAN Catch",
       "EAN": "2005678901234",
@@ -65,6 +70,7 @@ const products=[
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6051",
       "name": "Jugo de naranja recién exprimido",
       "brand": "Sunburst Farms",
       "EAN": "2006789012345",
@@ -76,6 +82,7 @@ const products=[
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6052",
       "name": "Sopa de tomate enlatada",
       "brand": "Big Kettle",
       "EAN": "2007890123456",
@@ -88,6 +95,7 @@ const products=[
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6053",
       "name": "Sándwich de pollo a la parrilla",
       "brand": "Grill King",
       "EAN": "2008901234567",
@@ -99,6 +107,7 @@ const products=[
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6054",
       "name": "Helado de vainilla con chispas de chocolate",
       "brand": "Sweet Treats",
       "EAN": "2009012345678",
@@ -110,6 +119,7 @@ const products=[
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6055",
       "name": "Mantequilla de maní natural",
       "brand": "Nutty Buddy",
       "EAN": "2000123456789",
@@ -122,6 +132,7 @@ const products=[
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6056",
       "name": "Pasta de trigo integral",
       "brand": "Fiberlicious",
       "EAN": "2001234567890",
@@ -134,6 +145,7 @@ const products=[
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6057",
       "name": "Hamburguesa vegetariana con queso cheddar",
       "brand": "Green Garden",
       "EAN": "2002345678901",
@@ -144,6 +156,7 @@ const products=[
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6058",
       "name": "Leche descremada orgánica",
       "brand": "Organic Dairy",
       "EAN": "2003456789012",
@@ -155,6 +168,7 @@ const products=[
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6059",
       "name": "Café molido para espresso",
       "brand": "Dark Roast",
       "EAN": "2004567890123",
@@ -167,6 +181,7 @@ const products=[
     ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad605a",
       "name": "Tortilla de trigo",
       "brand": "Tortilla Time",
       "EAN": "2005678901234",
@@ -180,6 +195,7 @@ const products=[
     ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad605b",
       "name": "Queso cheddar rallado",
       "brand": "Cheesy Goodness",
       "EAN": "2006789012345",
@@ -192,20 +208,22 @@ const products=[
     ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad605c",
       "name": "Ensalada de atún",
       "brand": "Seafood Delight",
       "EAN": "2007890123456",
       "components": [
         "63f33eabdad6960d60dd0468",
         "63f33eabdad6960d60dd0469",
-        "Cebo63f33eabdad6960d60dd046ella",
+        "63f33eabdad6960d60dd046a",
         "63f33eabdad6960d60dd0471",
-        "Pepi63f33eabdad6960d60dd0475nillos",
+        "63f33eabdad6960d60dd0475",
         "63f33eabdad6960d60dd0478",
         "63f33eabdad6960d60dd047b",
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad605d",
       "name": "Palomitas de maíz con sabor a mantequilla",
       "brand": "Buttery Pop",
       "EAN": "2008901234567",
@@ -218,6 +236,7 @@ const products=[
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad605e",
       "name": "Aceitunas verdes rellenas de pimiento",
       "brand": "MediterranEAN Delights",
       "EAN": "2009012345678",
@@ -228,6 +247,7 @@ const products=[
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad605f",
       "name": "Galletas de avena",
       "brand": "Oatmeal Bliss",
       "EAN": "2000123456789",
@@ -240,6 +260,7 @@ const products=[
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6060",
       "name": "Leche de almendra sin azúcar",
       "brand": "Almond Breeze",
       "EAN": "2012345678901",
@@ -253,6 +274,7 @@ const products=[
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6061",
       "name": "Salsa de tomate",
       "brand": "Tomato Time",
       "EAN": "2013456789012",
@@ -265,6 +287,7 @@ const products=[
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6062",
       "name": "Cereal de arroz inflado",
       "brand": "Rice Puffs",
       "EAN": "2014567890123",
@@ -276,6 +299,7 @@ const products=[
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6063",
       "name": "Sopa de pollo",
       "brand": "Chicken Soup Co.",
       "EAN": "2015678901234",
@@ -288,6 +312,7 @@ const products=[
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6064",
       "name": "Gelatina de frutas",
       "brand": "Fruit Jellies",
       "EAN": "2016789012345",
@@ -298,6 +323,7 @@ const products=[
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6065",
       "name": "Pan integral",
       "brand": "Whole Wheat Bakery",
       "EAN": "2017890123456",
@@ -309,6 +335,7 @@ const products=[
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6066",
       "name": "Mermelada de fresa",
       "brand": "Berry Good",
       "EAN": "2018901234567",
