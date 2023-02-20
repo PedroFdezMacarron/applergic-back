@@ -27,7 +27,7 @@ const getUserProducts = async(req, res) => {
     try {        
         const userBy = new User(req.body);                
         const arrayProducts = userBy.diaryProducts;         
-        // console.log(arrayProducts);
+        console.log(arrayProducts);
         const products = await Product.find({ _id: { $in: arrayProducts } });
         return res.status(200).json(products);
     } catch (error) {
