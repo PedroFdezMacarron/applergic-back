@@ -10,7 +10,7 @@ const products=[
       "name": "Galletas de avena orgánicas",
       "brand": "Green Valley",
       "EAN": "2001234567890",
-      "img":"https://m.media-amazon.com/images/I/81EfaZgPMTL._AC_UF894,1000_QL80_.jpg",
+      "img":"https://m.media-amazon.com/images/I/81EfaZgPMTL._AC_UF8941000_QL80_.jpg",
       "components": [
         "63f33eabdad6960d60dd0468",
         "63f33eabdad6960d60dd045e",
