@@ -5,229 +5,47 @@ dotenv.config();
 const DB_URL = process.env.DB_URL;
 
 const components = [
-  {
-    letter: "A",
-    components: [
-      { id: 1, name: "Aceitunas negras" },      
-      { id: 2, name: "Aceitunas verdes" },      
-      { id: 3, name: "Acidulante" },      
-      { id: 4, name: "Alcaparras" },      
-      { id: 5, name: "Anchoas" },      
-      { id: 6, name: "Azúcar" },      
-      { id: 7, name: "Azúcar glas" },      
-      { id: 8, name: "Azúcar moreno" },
-    ]
-  },
-  {
-    letter: "C",
-    components: [
-      { id: 9, name: "Caldo de pollo" },
-      { id: 10, name: "Carne de cerdo" },
-      { id: 11, name: "Carne de vacuno" },
-      { id: 12, name: "Cebolla" },
-      { id: 13, name: "Cebolla frita" },
-      { id: 14, name: "Canela" },
-      { id: 15, name: "Chorizo" },
-      { id: 16, name: "Chocolate negro" },
-      { id: 17, name: "Condimentos" },
-    ]
-  },
-  {
-    letter: "E",
-    components: [
-      { id: 18, name: "Especias" },
-    ]
-  },
-  {
-    letter: "G",
-    components: [
-      { id: 19, name: "Guisantes" },
-    ]
-  },
-  {
-    letter: "H",
-    components: [
-      { id: 20, name: "Harina de almendras" },
-      { id: 21, name: "Harina de trigo" },
-    ]
-  },
-  {
-    letter: "J",
-    components: [
-      { id: 22, name: "Jamón serrano" },
-    ]
-  },
-  {
-    letter: "L",
-    components: [
-      { id: 23, name: "Leche" },
-      { id: 24, name: "Levadura" },
-      { id: 25, name: "Levadura en polvo" },
-    ]
-  },
-  {
-    letter: "M",
-    components: [
-      { id: 26, name: "Mantequilla" },
-      { id: 27, name: "Miel" },
-    ]
-  },
-  {
-    letter: "P",
-    components: [
-      { id: 28, name: "Pimentón" },
-      { id: 29, name: "Pimiento rojo" },
-      { id: 30, name: "Pimiento verde" },
-      { id: 31, name: "Pollo" },
-    ]
-  },
-  {
-    letter: "Q",
-    components: [
-      { id: 32, name: "Queso" },
-    ]
-  },
-  {
-    letter: "S",
-    components: [
-      { id: 33, name: "Sal" },
-      { id: 34, name: "Sal marina" },
-      { id: 35, name: "Salchicha" },
-    ]
-  },
-  {
-    letter: "T",
-    components: [
-      { id: 36, name: "Tomate" },
-    ]
-  },
-  {
-    letter: "V",
-    components: [
-      { id: 37, name: "Vainilla" },
-      { id: 38, name: "Vitamina A" },
-      { id: 39, name: "Vitamina B" },
-    ]
-  },
-  {
-    letter: "Z",
-    components: [
-      { id: 40, name: "Zanahoria" },
-    ]
-  },
+    { name: "Aceitunas negras", _id: "63f33c3f392ab8494126501d" },
+    { name: "Aceitunas verdes", _id: "63f33eabdad6960d60dd0456" },
+    { name: "Acidulante", _id: "63f33eabdad6960d60dd0457"},
+    { name: "Alcaparras", _id: "63f33eabdad6960d60dd0458" },
+    { name: "Anchoas", _id: "63f33eabdad6960d60dd0459" },
+    { name: "Azúcar", _id: "63f33eabdad6960d60dd045a" },
+    { name: "Azúcar glas", _id: "63f33eabdad6960d60dd045b" },
+    { name: "Azúcar moreno", _id: "63f33eabdad6960d60dd045c" },
+    { name: "Caldo de pollo", _id: "63f33eabdad6960d60dd045d" },
+    { name: "Carne de cerdo", _id: "63f33eabdad6960d60dd045e" },
+    { name: "Carne de vacuno", _id: "63f33eabdad6960d60dd045f" },
+    { name: "Cebolla", _id: "63f33eabdad6960d60dd0460" },
+    { name: "Cebolla frita", _id: "63f33eabdad6960d60dd0461" },
+    { name: "Canela", _id: "63f33eabdad6960d60dd0462" },
+    { name: "Chorizo", _id: "63f33eabdad6960d60dd0463" },
+    { name: "Chocolate negro", _id: "63f33eabdad6960d60dd0464" },
+    { name: "Condimentos", _id: "63f33eabdad6960d60dd0465" },
+    { name: "Especias", _id: "63f33eabdad6960d60dd0466" },
+    { name: "Guisantes", _id: "63f33eabdad6960d60dd0467" },
+    { name: "Harina de almendras", _id: "63f33eabdad6960d60dd0468" },
+    { name: "Harina de trigo",_id: "63f33eabdad6960d60dd0469" },
+    { name: "Jamón serrano", _id: "63f33eabdad6960d60dd046a" },
+    { name: "Leche", _id: "63f33eabdad6960d60dd046b" },
+    { name: "Levadura", _id: "63f33eabdad6960d60dd046c" },
+    { name: "Levadura en polvo", _id: "63f33eabdad6960d60dd046d" },
+    { name: "Mantequilla", _id: "63f33eabdad6960d60dd046e" },
+    { name: "Miel", _id: "63f33eabdad6960d60dd046f" },
+    { name: "Pimentón", _id: "63f33eabdad6960d60dd0470" },
+    { name: "Pimiento rojo", _id: "63f33eabdad6960d60dd0471" },
+    { name: "Pimiento verde", _id: "63f33eabdad6960d60dd0472" },
+    { name: "Pollo", _id: "63f33eabdad6960d60dd0473" },
+    { name: "Queso", _id: "63f33eabdad6960d60dd0474" },
+    { name: "Sal", _id: "63f33eabdad6960d60dd0475" },
+    { name: "Sal marina", _id: "63f33eabdad6960d60dd0476" },
+    { name: "Salchicha", _id: "63f33eabdad6960d60dd0477" },
+    { name: "Tomate", _id: "63f33eabdad6960d60dd0478" },
+    { name: "Vainilla", _id: "63f33eabdad6960d60dd0479" },
+    { name: "Vitamina A", _id: "63f33eabdad6960d60dd047a" },
+    { name: "Vitamina B", _id: "63f33eabdad6960d60dd047b" },
+    { name: "Zanahoria", _id: "63f33eabdad6960d60dd047c" },
 ];
-
-// const components = [
-// {   letter: "A",
-//     components: [
-//       { name: "Aceitunas negras" },      
-//       { name: "Aceitunas verdes" },      
-//       { name: "Acidulante" },      
-//       { name: "Alcaparras" },      
-//       { name: "Anchoas" },      
-//       { name: "Azúcar" },      
-//       { name: "Azúcar glas" },      
-//       { name: "Azúcar moreno" },
-//     ]
-// },
-// {
-//   letter: "C",
-//   components: [
-//     { name: "Caldo de pollo" },
-//     { name: "Carne de cerdo" },
-//     { name: "Carne de vacuno" },
-//     { name: "Cebolla" },
-//     { name: "Cebolla frita" },
-//     { name: "Canela" },
-//     { name: "Chorizo" },
-//     { name: "Chocolate negro" },
-//     { name: "Condimentos" },
-//   ]
-// },
-// {
-//   letter: "E",
-//   components: [
-//     { name: "Especias" },
-//   ]
-// },
-// {
-//   letter: "G",
-//   components: [
-//     { name: "Guisantes" },
-//   ]
-// },
-// {
-//   letter: "H",
-//   components: [
-//     { name: "Harina de almendras" },
-//     { name: "Harina de trigo" },
-//   ]
-// },
-// {
-//   letter: "J",
-//   components: [
-//     { name: "Jamón serrano" },
-//   ]
-// },
-// {
-//   letter: "L",
-//   components: [
-//     { name: "Leche" },
-//     { name: "Levadura" },
-//     { name: "Levadura en polvo" },
-//   ]
-// },
-// {
-//   letter: "M",
-//   components: [
-//     { name: "Mantequilla" },
-//     { name: "Miel" },
-//   ]
-// },
-// {
-//   letter: "P",
-//   components: [
-//     { name: "Pimentón" },
-//     { name: "Pimiento rojo" },
-//     { name: "Pimiento verde" },
-//     { name: "Pollo" },
-//   ]
-// },
-// {
-//   letter: "Q",
-//   components: [
-//     { name: "Queso" },
-//   ]
-// },
-// {
-//   letter: "S",
-//   components: [
-//     { name: "Sal" },
-//     { name: "Sal marina" },
-//     { name: "Salchicha" },
-//   ]
-// },
-// {
-//   letter: "T",
-//   components: [
-//     { name: "Tomate" },
-//   ]
-// },
-// {
-//   letter: "V",
-//   components: [
-//     { name: "Vainilla" },
-//     { name: "Vitamina A" },
-//     { name: "Vitamina B" },
-//   ]
-// },
-// {
-//   letter: "Z",
-//   components: [
-//     { name: "Zanahoria" },
-//   ]
-// },
-// ]
 
 mongoose.set("strictQuery", false);
 
