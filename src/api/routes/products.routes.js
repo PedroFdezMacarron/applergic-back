@@ -1,10 +1,11 @@
 const express = require('express');
-const {getProducts, getUserProducts, postProducts, putProducts, deleteProducts} = require('../controllers/products.controller');
+const {getProducts, getProduct, getUserProducts, postProducts, putProducts, deleteProducts} = require('../controllers/products.controller');
 const {isAuth} = require('../../middleware/auth');
 // const {isAdmin} = require('../../middleware/auth');
 const router = express.Router();
 
 router.get('/', getProducts);
+router.get('/:id', getProduct);
 router.post('/user', getUserProducts);
 router.post('/',[isAuth], postProducts); // con autenticación
 router.put('/:id',[isAuth], putProducts);// con autenticación 

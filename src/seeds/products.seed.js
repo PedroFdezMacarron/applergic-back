@@ -6,344 +6,345 @@ const DB_URL = process.env.DB_URL;
 
 const products=[
     {
+      "_id": "63f34eabfb3892b2cfad604c",
       "name": "Galletas de avena orgánicas",
       "brand": "Green Valley",
       "EAN": "2001234567890",
       "img":"https://m.media-amazon.com/images/I/81EfaZgPMTL._AC_UF894,1000_QL80_.jpg",
       "components": [
-        "Harina de avena orgánica",
-        "Azúcar de caña orgánico",
-        "Aceite de girasol orgánico",
-        "Huevos orgánicos",
-        "Sal marina"
+        "63f33eabdad6960d60dd0468",
+        "63f33eabdad6960d60dd045e",
+        "63f33eabdad6960d60dd0462",
+        "63f33eabdad6960d60dd0466",
+        "63f33eabdad6960d60dd046a",
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad604d",
       "name": "Salsa de tomate casera",
       "brand": "Nonna's Kitchen",
       "EAN": "2002345678901",
       "img":"https://www.nesquik.es/sites/default/files/2022-03/NQ_POT_390g_FRONT.png",
       "components": [
-        "Tomates frescos",
-        "Cebolla",
-        "Ajo",
-        "Aceite de oliva",
-        "Sal",
-        "Azúcar"
+        "63f33c3f392ab8494126501d",
+        "63f33eabdad6960d60dd0456",
+        "63f33eabdad6960d60dd0457",
+        "63f33eabdad6960d60dd0458",
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad604e",
       "name": "Cereal de miel y nueces",
       "brand": "Honey Nutty",
       "EAN": "2003456789012",
       "img":"https://www.nesquik.es/sites/default/files/2022-03/NQ_POT_390g_FRONT.png",
       "components": [
-        "Avena integral",
-        "Nueces",
-        "Miel",
-        "Aceite de canola",
-        "Sal"
+        "63f33eabdad6960d60dd0459",
+        "63f33eabdad6960d60dd045a",
+        "63f33eabdad6960d60dd045b",
+        "63f33eabdad6960d60dd045c"
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad604f",
       "name": "Yogurt griego de fresa",
       "brand": "Olympia Farms",
       "EAN": "2004567890123",
       "img":"https://www.nesquik.es/sites/default/files/2022-03/NQ_POT_390g_FRONT.png",
       "components": [
-        "Leche entera",
-        "Cultivos de yogur",
-        "Fresas",
-        "Azúcar",
-        "Almidón modificado",
-        "Saborizante natural",
-        "Jugo de zanahoria (para color)"
+        "63f33eabdad6960d60dd045d",
+        "63f33eabdad6960d60dd045e",
+        "63f33eabdad6960d60dd045f",
+        "63f33eabdad6960d60dd0460",
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6050",
       "name": "Atún enlatado en aceite",
       "brand": "OcEAN Catch",
       "EAN": "2005678901234",
       "components": [
-        "Atún",
-        "Aceite de girasol",
-        "Sal"
+        "63f33eabdad6960d60dd0461",
+        "63f33eabdad6960d60dd0463",
+        "63f33eabdad6960d60dd0462"
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6051",
       "name": "Jugo de naranja recién exprimido",
       "brand": "Sunburst Farms",
       "EAN": "2006789012345",
       "components": [
-        "Naranjas frescas",
-        "Agua",
-        "Azúcar"
+        "63f33eabdad6960d60dd0465",
+        "63f33eabdad6960d60dd0466",
+        "63f33eabdad6960d60dd0464",
+        "63f33eabdad6960d60dd0468"
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6052",
       "name": "Sopa de tomate enlatada",
       "brand": "Big Kettle",
       "EAN": "2007890123456",
       "components": [
-        "Tomates",
-        "Agua",
-        "Cebolla",
-        "Aceite de oliva",
-        "Sal",
-        "Ajo",
-        "Azúcar",
-        "Especias"
+        "63f33eabdad6960d60dd0468",
+        "63f33eabdad6960d60dd0469",
+        "63f33eabdad6960d60dd046a",
+        "63f33eabdad6960d60dd046b",
+        "63f33eabdad6960d60dd046c",
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6053",
       "name": "Sándwich de pollo a la parrilla",
       "brand": "Grill King",
       "EAN": "2008901234567",
       "components": [
-        "Pan de trigo",
-        "Pechuga de pollo a la parrilla",
-        "Queso suizo",
-        "Lechuga",
-        "Tomate",
-        "Mayonesa"
+        "63f33eabdad6960d60dd046d",
+        "63f33eabdad6960d60dd046e",
+        "63f33eabdad6960d60dd046f",
+        "63f33eabdad6960d60dd0470"
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6054",
       "name": "Helado de vainilla con chispas de chocolate",
       "brand": "Sweet Treats",
       "EAN": "2009012345678",
       "components": [
-        "Crema",
-        "Leche",
-        "Vainilla",
-        "Chips de chocolate",
-        "Azúcar",
-        "Jarabe de maíz",
-        "Yemas de huevo"
+        "63f33eabdad6960d60dd0471",
+        "63f33eabdad6960d60dd0472",
+        "63f33eabdad6960d60dd0473",
+        "63f33eabdad6960d60dd0474",
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6055",
       "name": "Mantequilla de maní natural",
       "brand": "Nutty Buddy",
       "EAN": "2000123456789",
       "components": [
-        "Maní tostado",
-        "Aceite de maní",
-        "Sal"
+        "63f33eabdad6960d60dd0475",
+        "63f33eabdad6960d60dd0476",
+        "63f33eabdad6960d60dd0477",
+        "63f33eabdad6960d60dd0478",
+        "63f33eabdad6960d60dd0479"
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6056",
       "name": "Pasta de trigo integral",
       "brand": "Fiberlicious",
       "EAN": "2001234567890",
       "components": [
-        "Harina de trigo integral",
-        "Agua"
+        "63f33eabdad6960d60dd047a",
+        "63f33eabdad6960d60dd047b",
+        "63f33eabdad6960d60dd047c",
+        "63f33eabdad6960d60dd0473",
+        "63f33eabdad6960d60dd046e",
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6057",
       "name": "Hamburguesa vegetariana con queso cheddar",
       "brand": "Green Garden",
       "EAN": "2002345678901",
       "components": [
-        "Hamburguesa vegetariana",
-        "Pan de hamburguesa",
-        "Queso cheddar",
-        "Lechuga",
-        "Tomate",
-        "Mayonesa"
+        "63f33eabdad6960d60dd0468",
+        "63f33eabdad6960d60dd0466",
+        "63f33eabdad6960d60dd0469"
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6058",
       "name": "Leche descremada orgánica",
       "brand": "Organic Dairy",
       "EAN": "2003456789012",
       "components": [
-        "Leche descremada orgánica",
-        "Vitamina A",
-        "Vitamina D"
+        "63f33eabdad6960d60dd047b",
+        "63f33eabdad6960d60dd047c",
+        "63f33eabdad6960d60dd0473",
+        "63f33eabdad6960d60dd046e",
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6059",
       "name": "Café molido para espresso",
       "brand": "Dark Roast",
       "EAN": "2004567890123",
       "components": [
-        "Café de grano",
-        "Agua"
+        "63f33eabdad6960d60dd045f",
+        "63f33eabdad6960d60dd045e",
+        "63f33eabdad6960d60dd0462",
+        "63f33eabdad6960d60dd0469",
+        "63f33eabdad6960d60dd0465",
     ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad605a",
       "name": "Tortilla de trigo",
       "brand": "Tortilla Time",
       "EAN": "2005678901234",
       "components": [
-        "Harina de trigo",
-        "Agua",
-        "Aceite de canola",
-        "Sal"
+        "63f33eabdad6960d60dd047b",
+        "63f33eabdad6960d60dd0479",
+        "63f33eabdad6960d60dd0478",
+        "63f33eabdad6960d60dd0477",
+        "63f33eabdad6960d60dd046e",
+        "63f33eabdad6960d60dd046d"
     ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad605b",
       "name": "Queso cheddar rallado",
       "brand": "Cheesy Goodness",
       "EAN": "2006789012345",
       "components": [
-        "Leche",
-        "Cultivos de queso",
-        "Sal",
-        "Enzima del queso",
-        "Colorante"
+        "63f33c3f392ab8494126501d",
+        "63f33eabdad6960d60dd0456",
+        "63f33eabdad6960d60dd0457",
+        "63f33eabdad6960d60dd0462",
+        "63f33eabdad6960d60dd0467",
     ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad605c",
       "name": "Ensalada de atún",
       "brand": "Seafood Delight",
       "EAN": "2007890123456",
       "components": [
-        "Atún",
-        "Huevos",
-        "Cebolla",
-        "Apio",
-        "Pepinillos",
-        "Mayonesa",
-        "Mostaza",
-        "Sal",
-        "Pimienta negra"
+        "63f33eabdad6960d60dd0468",
+        "63f33eabdad6960d60dd0469",
+        "63f33eabdad6960d60dd046a",
+        "63f33eabdad6960d60dd0471",
+        "63f33eabdad6960d60dd0475",
+        "63f33eabdad6960d60dd0478",
+        "63f33eabdad6960d60dd047b",
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad605d",
       "name": "Palomitas de maíz con sabor a mantequilla",
       "brand": "Buttery Pop",
       "EAN": "2008901234567",
       "components": [
-        "Maíz para palomitas",
-        "Aceite de canola",
-        "Sal",
-        "Saborizante artificial a mantequilla",
-        "Colorante amarillo"
+        "63f33eabdad6960d60dd047c",
+        "63f33eabdad6960d60dd0475",
+        "63f33eabdad6960d60dd046f",
+        "63f33eabdad6960d60dd046d",
+        "63f33eabdad6960d60dd0468",
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad605e",
       "name": "Aceitunas verdes rellenas de pimiento",
       "brand": "MediterranEAN Delights",
       "EAN": "2009012345678",
       "components": [
-        "Aceitunas verdes",
-        "Pimiento",
-        "Sal",
-        "Acidulante"
+        "63f33eabdad6960d60dd0466",
+        "63f33eabdad6960d60dd0462",
+        "63f33eabdad6960d60dd045d"
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad605f",
       "name": "Galletas de avena",
       "brand": "Oatmeal Bliss",
       "EAN": "2000123456789",
       "components": [
-        "Avena",
-        "Harina de trigo",
-        "Azúcar",
-        "Aceite vegetal",
-        "Huevos",
-        "Vainilla",
-        "Polvo de hornear",
-        "Sal"
+        "63f33eabdad6960d60dd0457",
+        "63f33eabdad6960d60dd0459",
+        "63f33c3f392ab8494126501d",
+        "63f33eabdad6960d60dd0458",
+        "63f33eabdad6960d60dd0456"
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6060",
       "name": "Leche de almendra sin azúcar",
       "brand": "Almond Breeze",
       "EAN": "2012345678901",
       "components": [
-        "Agua filtrada",
-        "Almendras",
-        "Carbonato de calcio",
-        "Sal marina",
-        "Goma de xantano",
-        "Lecitina de girasol",
-        "Vitamina A palmitato",
-        "Vitamina D2",
-        "Vitamina E acetato"
+        "63f33eabdad6960d60dd0457",
+        "63f33eabdad6960d60dd0458",
+        "63f33eabdad6960d60dd0459",
+        "63f33eabdad6960d60dd0464",
+        "63f33eabdad6960d60dd0465",
+        "63f33eabdad6960d60dd046a",
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6061",
       "name": "Salsa de tomate",
       "brand": "Tomato Time",
       "EAN": "2013456789012",
       "components": [
-        "Tomates",
-        "Cebolla",
-        "Ajo",
-        "Aceite de oliva",
-        "Vinagre",
-        "Azúcar",
-        "Sal",
-        "Orégano",
-        "Pimienta negra"
+        "63f33eabdad6960d60dd046d",
+        "63f33eabdad6960d60dd046f",
+        "63f33eabdad6960d60dd0470",
+        "63f33eabdad6960d60dd0465",
+        "63f33eabdad6960d60dd0464",
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6062",
       "name": "Cereal de arroz inflado",
       "brand": "Rice Puffs",
       "EAN": "2014567890123",
       "components": [
-        "Arroz integral",
-        "Azúcar",
-        "Sal",
-        "Saborizante natural de vainilla"
+        "63f33eabdad6960d60dd045a",
+        "63f33eabdad6960d60dd045b",
+        "63f33eabdad6960d60dd045d",
+        "63f33eabdad6960d60dd0465",
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6063",
       "name": "Sopa de pollo",
       "brand": "Chicken Soup Co.",
       "EAN": "2015678901234",
       "components": [
-        "Caldo de pollo",
-        "Carne de pollo",
-        "Zanahorias",
-        "Apio",
-        "Cebolla",
-        "Fideos",
-        "Sal",
-        "Pimienta negra"
+        "63f33eabdad6960d60dd046a",
+        "63f33eabdad6960d60dd046e",
+        "63f33eabdad6960d60dd046d",
+        "63f33eabdad6960d60dd0473",
+        "63f33eabdad6960d60dd0477",
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6064",
       "name": "Gelatina de frutas",
       "brand": "Fruit Jellies",
       "EAN": "2016789012345",
       "components": [
-        "Agua",
-        "Azúcar",
-        "Gelatina",
-        "Jugo de frutas",
-        "Ácido cítrico",
-        "Colorante",
-        "Saborizante natural"
+        "63f33eabdad6960d60dd047a",
+        "63f33eabdad6960d60dd047b",
+        "63f33eabdad6960d60dd047c",
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6065",
       "name": "Pan integral",
       "brand": "Whole Wheat Bakery",
       "EAN": "2017890123456",
       "components": [
-        "Harina de trigo integral",
-        "Agua",
-        "Levadura",
-        "Azúcar",
-        "Aceite vegetal",
-        "Sal"
+        "63f33eabdad6960d60dd0475",
+        "63f33eabdad6960d60dd0472",
+        "63f33eabdad6960d60dd046f",
+        "63f33eabdad6960d60dd046d"
       ]
     },
     {
+      "_id": "63f34eabfb3892b2cfad6066",
       "name": "Mermelada de fresa",
       "brand": "Berry Good",
       "EAN": "2018901234567",
       "components": [
-        "Fresas",
-        "Azúcar",
-        "Pectina",
-        "Ácido cítrico"
+        "63f33eabdad6960d60dd0465",
+        "63f33eabdad6960d60dd0460",
+        "63f33eabdad6960d60dd045a",
+        "63f33eabdad6960d60dd0457",
+        "63f33c3f392ab8494126501d",
       ]
     },
 ];

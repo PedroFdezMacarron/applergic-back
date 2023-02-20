@@ -11,6 +11,17 @@ const getProducts = async(req, res) => {
     }
 }
 
+const getProduct = async(req, res) => {
+    console.log('get de un producto by EAN:',req.params.id);
+    try {
+        const ean = req.params.id;        
+        const product = await Product.findOne({EAN:ean});    
+        return res.status(200).json(product);
+    } catch (error) {
+        return res.status(500).json(error);
+    }
+}
+
 const getUserProducts = async(req, res) => {
     console.log('get de products by user');
     try {        
@@ -63,4 +74,4 @@ const deleteProducts = async(req, res) => {
     }
 }
 
-module.exports = {getProducts, getUserProducts, postProducts, putProducts, deleteProducts}
+module.exports = {getProducts, getProduct, getUserProducts, postProducts, putProducts, deleteProducts}
