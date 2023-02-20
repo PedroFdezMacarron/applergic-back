@@ -15,7 +15,7 @@ const getProduct = async(req, res) => {
     console.log('get de un producto by EAN:',req.params.id);
     try {
         const ean = req.params.id;        
-        const product = await Product.findOne({EAN:ean});    
+        const product = await Product.findOne({EAN:ean}).populate('components');    
         return res.status(200).json(product);
     } catch (error) {
         return res.status(500).json(error);
