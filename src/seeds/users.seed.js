@@ -13,7 +13,19 @@ const users = [
 	"photourl": "",
 	"_id": "63e54e7730c2e623c675f5b3",
   "intolerances": ["63ecc4b1f5b83895ecf0b0fd","63ecc4b1f5b83895ecf0b101"],  
-  "diaryProducts":["63f0a8786257b357b1023e7f","63f0a8786257b357b1023e80","63f0a8786257b357b1023e81"],
+  
+  "diaryProducts":[
+		{"_id":"63f0a8786257b357b1023e7f",
+		 "notes": "notas del producto galletas del diario",
+		 "date":"2023-02-19T00:00:00.000Z"
+		},
+		{"_id": "63f0a8786257b357b1023e80",
+		 "notes": "notas del producto de Nonna's Kitchen",
+		 "date":"2023-02-20T00:00:00.000Z"
+		}		
+		]
+
+
   },
   {
     "name": "Pedro Fernández",
@@ -23,7 +35,16 @@ const users = [
     "photourl":"",
     "_id": "63e3fec5be74d20951221460", 
     "intolerances": ["63ecc4b1f5b83895ecf0b0f7","63ecc4b1f5b83895ecf0b0f9"],
-    "diaryProducts":["63f0a8786257b357b1023e7f","63f0a8786257b357b1023e80","63f0a8786257b357b1023e81"],
+    "diaryProducts":[
+      {"_id":"63f0a8786257b357b1023e7f",
+       "notes": "notas del producto galletas del diario",
+       "date":"2023-01-15T00:00:00.000Z"
+      },
+      {"_id": "63f0a8786257b357b1023e80",
+       "notes": "notas del producto de Nonna's Kitchen",
+       "date":"2023-01-19T00:00:00.000Z"
+      }		
+      ]
   },
   {
 	"name": "Alba Mozas",
@@ -33,7 +54,16 @@ const users = [
 	"photourl": "",
 	"_id": "63e5504972314778f6e32de9",
   "intolerances": ["63ecc4b1f5b83895ecf0b0f2","63ecc4b1f5b83895ecf0b0f5","63ecc4b1f5b83895ecf0b103","63ecc4b1f5b83895ecf0b105","63ecc4b1f5b83895ecf0b0e7","63ecc4b1f5b83895ecf0b10b"],
-  "diaryProducts":["63f0a8786257b357b1023e7f","63f0a8786257b357b1023e80","63f0a8786257b357b1023e81"],
+  "diaryProducts":[
+		{"_id":"63f0a8786257b357b1023e7f",
+		 "notes": "notas del producto galletas del diario",
+		 "date":"2023-02-19T00:00:00.000Z"
+		},
+		{"_id": "63f0a8786257b357b1023e80",
+		 "notes": "notas del producto de Nonna's Kitchen",
+		 "date":"2023-02-19T00:00:00.000Z"
+		}		
+		]
 },
 {
 	"name": "Marcos Fraile",
@@ -43,7 +73,16 @@ const users = [
 	"photourl": "",
 	"_id": "63e5508272314778f6e32dec",
   "intolerances": ["63ecc4b1f5b83895ecf0b0e4","63ecc4b1f5b83895ecf0b0e8","63ecc4b1f5b83895ecf0b100"],
-  "diaryProducts":["63f0a8786257b357b1023e7f","63f0a8786257b357b1023e80","63f0a8786257b357b1023e81"],
+  "diaryProducts":[
+		{"_id":"63f0a8786257b357b1023e7f",
+		 "notes": "notas del producto galletas del diario",
+		 "date":"2022-12-12T00:00:00.000Z"
+		},
+		{"_id": "63f0a8786257b357b1023e80",
+		 "notes": "notas del producto de Nonna's Kitchen",
+		 "date":"2022-12-11T00:00:00.000Z"
+		}		
+		]
 }
   
 ];
