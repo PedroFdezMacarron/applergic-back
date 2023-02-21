@@ -37,8 +37,9 @@ const users = [
     "phone": "+34 222-444-333",
     "password": "$2b$10$WYw8qD7sKwYvIQfZ2Ap9hOJzDqwlR7WnnpBf2oHpgMyQ3HnevHB2q",
     "photourl":"",
-    "_id": "63e3fec5be74d20951221460", 
-    "intolerances": ["63ecc4b1f5b83895ecf0b0f7","63ecc4b1f5b83895ecf0b0f9"],
+    "_id": "63e3fec5be74d20951221460",
+    "contactName":"Persona de contacto",
+    "intolerances": ["63ecc4b1f5b83895ecf0b0f7","63ecc4b1f5b83895ecf0b0f9"],    
     "diaryProducts":[
       {"_id":"63f34eabfb3892b2cfad604c",
       "notes": "notas del producto galletas del diario",

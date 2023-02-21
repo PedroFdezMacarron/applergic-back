@@ -22,9 +22,9 @@ const products=[
     {
       "_id": "63f34eabfb3892b2cfad604d",
       "name": "Salsa de tomate casera",
-      "brand": "Nonna's Kitchen",
+      "brand": "Orlando",
       "EAN": "2002345678901",
-      "img":"https://www.nesquik.es/sites/default/files/2022-03/NQ_POT_390g_FRONT.png",
+      "img":"https://a1.soysuper.com/048ee1d87ea27215df8c15952aba16e9.1500.0.0.0.wmark.8220b670.jpg",
       "components": [
         "63f33c3f392ab8494126501d",
         "63f33eabdad6960d60dd0456",
@@ -37,7 +37,7 @@ const products=[
       "name": "Cereal de miel y nueces",
       "brand": "Honey Nutty",
       "EAN": "2003456789012",
-      "img":"https://www.nesquik.es/sites/default/files/2022-03/NQ_POT_390g_FRONT.png",
+      "img":"https://e7.pngegg.com/pngimages/946/388/png-clipart-breakfast-cereal-honey-nut-cheerios-bee-breakfast-honey-bee-food.png",
       "components": [
         "63f33eabdad6960d60dd0459",
         "63f33eabdad6960d60dd045a",

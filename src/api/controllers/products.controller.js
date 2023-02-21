@@ -11,6 +11,16 @@ const getProducts = async(req, res) => {
     }
 }
 
+const getProductsPopulate = async(req, res) => {
+    console.log('get de products');
+    try {
+        const products = await Product.find().populate('components');
+        return res.status(200).json(products);
+    } catch (error) {
+        return res.status(500).json(error);
+    }
+}
+
 const getProduct = async(req, res) => {
     console.log('get de un producto by EAN:',req.params.id);
     try {
@@ -74,4 +84,4 @@ const deleteProducts = async(req, res) => {
     }
 }
 
-module.exports = {getProducts, getProduct, getUserProducts, postProducts, putProducts, deleteProducts}
+module.exports = {getProducts, getProductsPopulate, getProduct, getUserProducts, postProducts, putProducts, deleteProducts}
