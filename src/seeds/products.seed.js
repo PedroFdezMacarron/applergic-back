@@ -9,7 +9,7 @@ const products=[
     "_id": "63f34eabfb3892b2cfad604c",
     "name": "Galletas de avena orgánicas",
     "brand": "Green Valley",
-    "EAN": "2001234567890",
+    "EAN": "2902266000771",
     "img":"https://m.media-amazon.com/images/I/81EfaZgPMTL._AC_UF8941000_QL80_.jpg",
     "components": [
       "63f33eabdad6960d60dd0468",
@@ -23,7 +23,7 @@ const products=[
     "_id": "63f34eabfb3892b2cfad604d",
     "name": "Salsa de tomate casera",
     "brand": "Orlando",
-    "EAN": "2002345678901",
+    "EAN": "2002345678904",
     "img":"https://a1.soysuper.com/048ee1d87ea27215df8c15952aba16e9.1500.0.0.0.wmark.8220b670.jpg",
     "components": [
       "63f33c3f392ab8494126501d",
@@ -36,7 +36,7 @@ const products=[
     "_id": "63f34eabfb3892b2cfad604e",
     "name": "Cereal de miel y nueces",
     "brand": "Honey Nutty",
-    "EAN": "2003456789012",
+    "EAN": "2003456789015",
     "img":"https://e7.pngegg.com/pngimages/946/388/png-clipart-breakfast-cereal-honey-nut-cheerios-bee-breakfast-honey-bee-food.png",
     "components": [
       "63f33eabdad6960d60dd0459",
@@ -49,7 +49,7 @@ const products=[
     "_id": "63f34eabfb3892b2cfad604f",
     "name": "Yogurt griego de fresa",
     "brand": "Yoplait",
-    "EAN": "2004567890123",
+    "EAN": "8411547001061",
     "img":"https://res.cloudinary.com/walmart-labs/image/upload/d_default.jpg/w_960,dpr_auto,f_auto,q_auto:best/gr/images/product-images/img_large/00750104009528L.jpg",
     "components": [
       "63f33eabdad6960d60dd045d",
@@ -62,7 +62,7 @@ const products=[
     "_id": "63f34eabfb3892b2cfad6050",
     "name": "Atún enlatado en aceite",
     "brand": "Calvo",
-    "EAN": "2005678901234",
+    "EAN": "2902266000771",
     "img":"https://m.media-amazon.com/images/I/71DFBcvLOEL._AC_SL1500_.jpg",
     "components": [
       "63f33eabdad6960d60dd0461",
@@ -74,7 +74,7 @@ const products=[
     "_id": "63f34eabfb3892b2cfad6051",
     "name": "Jugo de naranja recién exprimido",
     "brand": "El Corte Inglés",
-    "EAN": "2006789012345",
+    "EAN": "2902266000771",
     "img":"https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202107/12/00118827000748____7__600x600.jpg",
     "components": [
       "63f33eabdad6960d60dd0465",
@@ -360,7 +360,7 @@ const products=[
     "_id": "63f34eabfb3892b2cfad6066",
     "name": "Mermelada de fresa",
     "brand": "La quesera de la vera",
-    "EAN": "2018901234567",
+    "EAN": "10271414",
     "img":"https://laqueseradelavera.es/wp-content/uploads/2020/11/mermelada-extra-de-fresa-artesana.jpg",
     "components": [
       "63f33eabdad6960d60dd0465",

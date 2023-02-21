@@ -36,7 +36,7 @@ const users = [
     "email": "pedro@pedro.com",
     "phone": "+34 222-444-333",
     "password": "$2b$10$WYw8qD7sKwYvIQfZ2Ap9hOJzDqwlR7WnnpBf2oHpgMyQ3HnevHB2q",
-    "photourl":"",
+    "photourl":"https://avatars.githubusercontent.com/u/117455326?s=400&u=aa6acaed286d86bc4fbfb37a2b1a0095f480f4d1&v=4",
     "_id": "63e3fec5be74d20951221460",
     "contactName":"Persona de contacto",
     "intolerances": ["63ecc4b1f5b83895ecf0b0f7","63ecc4b1f5b83895ecf0b0f9"],    
@@ -60,7 +60,7 @@ const users = [
 	"email": "alba@alba.com",
 	"phone": "+34 333-444-333",
 	"password": "$2b$10$ohvodrpeN09kFtHvkPgkWeZduKOVqFE4xuAquCL4sz3lLSQD0pbra",
-	"photourl": "",
+	"photourl": "https://media.licdn.com/dms/image/D5603AQGvBO7LqdyIIw/profile-displayphoto-shrink_800_800/0/1674295033343?e=1682553600&v=beta&t=w_BbZFMv6HEMAEXQFbfI7fdD8v17fgBV0oXoCD-wg2I",
 	"_id": "63e5504972314778f6e32de9",
   "intolerances": ["63ecc4b1f5b83895ecf0b0f2","63ecc4b1f5b83895ecf0b0f5","63ecc4b1f5b83895ecf0b103","63ecc4b1f5b83895ecf0b105","63ecc4b1f5b83895ecf0b0e7","63ecc4b1f5b83895ecf0b10b"],
   "diaryProducts":[
@@ -83,7 +83,7 @@ const users = [
 	"email": "marcos@marcos.com",
 	"phone": "+34 555-444-333",
 	"password": "$2b$10$WMwUrb2I1saXP92GR1MZhuPC4NwQtdMW5EcN/HoXMUBhB35AzEtba",
-	"photourl": "",
+	"photourl": "https://media.licdn.com/dms/image/D4D03AQFj2pMg-Cp6ug/profile-displayphoto-shrink_200_200/0/1676667381042?e=1682553600&v=beta&t=BaMq7-goh_IFrf5nKwVKlASsATtZ0ArYFgFq0yVfjsM",
 	"_id": "63e5508272314778f6e32dec",
   "intolerances": ["63ecc4b1f5b83895ecf0b0e4","63ecc4b1f5b83895ecf0b0e8","63ecc4b1f5b83895ecf0b100"],
   "diaryProducts":[
