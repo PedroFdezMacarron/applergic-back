@@ -14,6 +14,14 @@ const PORT = process.env.PORT || 5000;
 const app = express();
 connect();
 
+app.use((req, res, next) => {
+    res.header('Access-Control-Allow-Method', 'POST, GET, PUT, DELETE, PATCH');  //definimos que metodos permitimos en nuestra API
+    res.header('Access-Control-Allow-Credentials', 'true'); //podemos recibir una conexion con credenciales
+    res.header('Access-Control-Allow-Headers', 'Content-Type'); //tipos de cabeceras que permitimos
+    next();
+})
+
+
 app.use(express.json());
 
 app.use(cors({
