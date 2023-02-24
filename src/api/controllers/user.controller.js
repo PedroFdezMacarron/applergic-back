@@ -81,9 +81,15 @@ const update2 = async(req, res, next) => {
         console.log('update usuario fase 2...');
         // console.log(actualUser);
         if(actualUser.email === req.body.email){
-            console.log('update usuario fase 3...');
-            actualUser.diaryProducts = [...newUserData.diaryProducts];
-            actualUser.intolerances = [...newUserData.intolerances];
+            console.log('update usuario fase 3...');            
+            actualUser.name = newUserData.name;
+            actualUser.phone = newUserData.phone;
+            actualUser.contactName = newUserData.contactName;
+            actualUser.contactEmail = newUserData.contactEmail;
+            actualUser.contactPhone = newUserData.contactPhone                                                                                                                                                                                                                                                          ;
+            actualUser.insuranceCompany = newUserData.insuranceCompany                                                                                                              ;
+            actualUser.photourl = newUserData.photourl;
+            
             const createdUser = await actualUser.save();
             return res.status(200).json(createdUser);
         }else{
