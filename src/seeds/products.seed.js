@@ -10,6 +10,374 @@ const products=[
     "name": "Galletas de avena orgánicas",
     "brand": "Green Valley",
     "EAN": "2902266000771",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680275271/applergic/81EfaZgPMTL._AC_UF8941000_QL80__wgmtox.jpg",
+    "components": [
+      "63f33eabdad6960d60dd0468",
+      "63f33eabdad6960d60dd045e",
+      "63f33eabdad6960d60dd0462",
+      "63f33eabdad6960d60dd0466",
+      "63f33eabdad6960d60dd046a",
+    ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad604d",
+    "name": "Salsa de tomate casera",
+    "brand": "Orlando",
+    "EAN": "2002345678904",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680275366/applergic/048ee1d87ea27215df8c15952aba16e9.1500.0.0.0.wmark.8220b670_exsklm.jpg",
+    "components": [
+      "63f33c3f392ab8494126501d",
+      "63f33eabdad6960d60dd0456",
+      "63f33eabdad6960d60dd0457",
+      "63f33eabdad6960d60dd0458",
+    ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad604e",
+    "name": "Cereal de miel y nueces",
+    "brand": "Honey Nutty",
+    "EAN": "2003456789015",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680257684/applergic/cereal-honey-nut-cheerios.png",
+    "components": [
+      "63f33eabdad6960d60dd0459",
+      "63f33eabdad6960d60dd045a",
+      "63f33eabdad6960d60dd045b",
+      "63f33eabdad6960d60dd045c"
+    ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad604f",
+    "name": "Yogurt griego de fresa",
+    "brand": "Yoplait",
+    "EAN": "8411547001061",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680275463/applergic/00750104009528L_k0ewjp.webp",
+    "components": [
+      "63f33eabdad6960d60dd045d",
+      "63f33eabdad6960d60dd045e",
+      "63f33eabdad6960d60dd045f",
+      "63f33eabdad6960d60dd0460",
+    ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad6050",
+    "name": "Atún enlatado en aceite",
+    "brand": "Calvo",
+    "EAN": "2902266000771",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680257820/applergic/71DFBcvLOEL._AC_SL1500__t9ixry.jpg",
+    "components": [
+      "63f33eabdad6960d60dd0461",
+      "63f33eabdad6960d60dd0463",
+      "63f33eabdad6960d60dd0462"
+    ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad6051",
+    "name": "Jugo de naranja recién exprimido",
+    "brand": "El Corte Inglés",
+    "EAN": "2902266000771",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680257799/applergic/00118827000748____7__600x600_lrpmwb.jpg",
+    "components": [
+      "63f33eabdad6960d60dd0465",
+      "63f33eabdad6960d60dd0466",
+      "63f33eabdad6960d60dd0464",
+      "63f33eabdad6960d60dd0468"
+    ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad6052",
+    "name": "Sopa de tomate enlatada",
+    "brand": "Heinz",
+    "EAN": "2007890123456",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680256022/applergic/salsa-de-tomate.jpg",
+    "components": [
+      "63f33eabdad6960d60dd0468",
+      "63f33eabdad6960d60dd0469",
+      "63f33eabdad6960d60dd046a",
+      "63f33eabdad6960d60dd046b",
+      "63f33eabdad6960d60dd046c",
+    ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad6053",
+    "name": "Sándwich de pollo a la parrilla",
+    "brand": "Sandwich Maco",
+    "EAN": "2008901234567",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680257758/applergic/875027_xvysdt.jpg",
+    "components": [
+      "63f33eabdad6960d60dd046d",
+      "63f33eabdad6960d60dd046e",
+      "63f33eabdad6960d60dd046f",
+      "63f33eabdad6960d60dd0470"
+    ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad6054",
+    "name": "Helado de vainilla con chispas de chocolate",
+    "brand": "Häagen-Dazs",
+    "EAN": "2009012345678",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680275813/applergic/haagen-dazs-vanilla-chocolate-chip-ice-cream-pint-1500x1140_mzj5cb.png",
+    "components": [
+      "63f33eabdad6960d60dd0471",
+      "63f33eabdad6960d60dd0472",
+      "63f33eabdad6960d60dd0473",
+      "63f33eabdad6960d60dd0474",
+    ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad6055",
+    "name": "Mantequilla de maní natural",
+    "brand": "Karay",
+    "EAN": "2000123456789",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680257706/applergic/mantequilla-de-mani.jpg",
+    "components": [
+      "63f33eabdad6960d60dd0475",
+      "63f33eabdad6960d60dd0476",
+      "63f33eabdad6960d60dd0477",
+      "63f33eabdad6960d60dd0478",
+      "63f33eabdad6960d60dd0479"
+    ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad6056",
+    "name": "Pasta de trigo integral",
+    "brand": "Gallo",
+    "EAN": "2001234567890",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680257805/applergic/macarron_gallo_integral.jpg",
+    "components": [
+      "63f33eabdad6960d60dd047a",
+      "63f33eabdad6960d60dd047b",
+      "63f33eabdad6960d60dd047c",
+      "63f33eabdad6960d60dd0473",
+      "63f33eabdad6960d60dd046e",
+    ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad6057",
+    "name": "Hamburguesa vegetariana con queso cheddar",
+    "brand": "Very Burger",
+    "EAN": "2002345678901",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680257826/applergic/burguer-hamburguesa-vegana.png",
+    "components": [
+      "63f33eabdad6960d60dd0468",
+      "63f33eabdad6960d60dd0466",
+      "63f33eabdad6960d60dd0469"
+    ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad6058",
+    "name": "Leche descremada orgánica",
+    "brand": "Bové",
+    "EAN": "2003456789012",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680257829/applergic/front_es.3.full_b0ozn0.jpg",
+    "components": [
+      "63f33eabdad6960d60dd047b",
+      "63f33eabdad6960d60dd047c",
+      "63f33eabdad6960d60dd0473",
+      "63f33eabdad6960d60dd046e",
+    ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad6059",
+    "name": "Café molido para espresso",
+    "brand": "Lavazza",
+    "EAN": "2004567890123",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680257834/applergic/cafe-molido-lavazza-espresso_g1ycoq.jpg",
+    "components": [
+      "63f33eabdad6960d60dd045f",
+      "63f33eabdad6960d60dd045e",
+      "63f33eabdad6960d60dd0462",
+      "63f33eabdad6960d60dd0469",
+      "63f33eabdad6960d60dd0465",
+  ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad605a",
+    "name": "Tortilla de trigo",
+    "brand": "Eliges",
+    "EAN": "2005678901234",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680257838/applergic/aecoc_08480012029107_08480012029107_c1c1_acoqsa.jpg",
+    "components": [
+      "63f33eabdad6960d60dd047b",
+      "63f33eabdad6960d60dd0479",
+      "63f33eabdad6960d60dd0478",
+      "63f33eabdad6960d60dd0477",
+      "63f33eabdad6960d60dd046e",
+      "63f33eabdad6960d60dd046d"
+  ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad605b",
+    "name": "Queso cheddar rallado",
+    "brand": "Margui",
+    "EAN": "2006789012345",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680257842/applergic/45fb6e565831a6863e66c28e6e0316d6.1500.0.0.0.wmark.e2129039_iyvqln.jpg",
+    "components": [
+      "63f33c3f392ab8494126501d",
+      "63f33eabdad6960d60dd0456",
+      "63f33eabdad6960d60dd0457",
+      "63f33eabdad6960d60dd0462",
+      "63f33eabdad6960d60dd0467",
+  ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad605c",
+    "name": "Ensalada de atún",
+    "brand": "Mercadona",
+    "EAN": "2007890123456",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680257764/applergic/ensatun-la-ensalada-mas-sana-de-mercadona_o3nnur.png",
+    "components": [
+      "63f33eabdad6960d60dd0468",
+      "63f33eabdad6960d60dd0469",
+      "63f33eabdad6960d60dd046a",
+      "63f33eabdad6960d60dd0471",
+      "63f33eabdad6960d60dd0475",
+      "63f33eabdad6960d60dd0478",
+      "63f33eabdad6960d60dd047b",
+    ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad605d",
+    "name": "Palomitas de maíz con sabor a mantequilla",
+    "brand": "Great Value",
+    "EAN": "2008901234567",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680257809/applergic/palomitas-mantequilla.jpg",
+    "components": [
+      "63f33eabdad6960d60dd047c",
+      "63f33eabdad6960d60dd0475",
+      "63f33eabdad6960d60dd046f",
+      "63f33eabdad6960d60dd046d",
+      "63f33eabdad6960d60dd0468",
+    ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad605e",
+    "name": "Aceitunas verdes rellenas de pimiento",
+    "brand": "La Española",
+    "EAN": "2009012345678",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680257717/applergic/172760_xl_e9wvom.jpg",
+    "components": [
+      "63f33eabdad6960d60dd0466",
+      "63f33eabdad6960d60dd0462",
+      "63f33eabdad6960d60dd045d"
+    ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad605f",
+    "name": "Galletas de avena",
+    "brand": "Granvita",
+    "EAN": "2000123456789",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680257846/applergic/gvita_galletas_tradicionales_granola.png",
+    "components": [
+      "63f33eabdad6960d60dd0457",
+      "63f33eabdad6960d60dd0459",
+      "63f33c3f392ab8494126501d",
+      "63f33eabdad6960d60dd0458",
+      "63f33eabdad6960d60dd0456"
+    ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad6060",
+    "name": "Leche de almendra sin azúcar",
+    "brand": "Alpro",
+    "EAN": "2012345678901",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680257728/applergic/732758_00_1_g9mql8.jpg",
+    "components": [
+      "63f33eabdad6960d60dd0457",
+      "63f33eabdad6960d60dd0458",
+      "63f33eabdad6960d60dd0459",
+      "63f33eabdad6960d60dd0464",
+      "63f33eabdad6960d60dd0465",
+      "63f33eabdad6960d60dd046a",
+    ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad6061",
+    "name": "Salsa de tomate",
+    "brand": "Alacena",
+    "EAN": "2013456789012",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680257813/applergic/123501294_G_tbtcr6.jpg",
+    "components": [
+      "63f33eabdad6960d60dd046d",
+      "63f33eabdad6960d60dd046f",
+      "63f33eabdad6960d60dd0470",
+      "63f33eabdad6960d60dd0465",
+      "63f33eabdad6960d60dd0464",
+    ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad6062",
+    "name": "Cereal de arroz inflado",
+    "brand": "Kellogg's",
+    "EAN": "2014567890123",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680257769/applergic/220005_G_vgehh5.jpg",
+    "components": [
+      "63f33eabdad6960d60dd045a",
+      "63f33eabdad6960d60dd045b",
+      "63f33eabdad6960d60dd045d",
+      "63f33eabdad6960d60dd0465",
+    ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad6063",
+    "name": "Sopa de pollo",
+    "brand": "Gallina Blanca",
+    "EAN": "2015678901234",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680257740/applergic/sopa-pollo-gallina-blanca.jpg",
+    "components": [
+      "63f33eabdad6960d60dd046a",
+      "63f33eabdad6960d60dd046e",
+      "63f33eabdad6960d60dd046d",
+      "63f33eabdad6960d60dd0473",
+      "63f33eabdad6960d60dd0477",
+    ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad6064",
+    "name": "Gelatina de frutas",
+    "brand": "Royal",
+    "EAN": "2016789012345",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680257775/applergic/00118821304062____6__600x600_k5s4he.jpg",
+    "components": [
+      "63f33eabdad6960d60dd047a",
+      "63f33eabdad6960d60dd047b",
+      "63f33eabdad6960d60dd047c",
+    ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad6065",
+    "name": "Pan integral",
+    "brand": "Recondo",
+    "EAN": "2017890123456",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680257747/applergic/AP01031203_ti9i3s.jpg",
+    "components": [
+      "63f33eabdad6960d60dd0475",
+      "63f33eabdad6960d60dd0472",
+      "63f33eabdad6960d60dd046f",
+      "63f33eabdad6960d60dd046d"
+    ]
+  },
+  {
+    "_id": "63f34eabfb3892b2cfad6066",
+    "name": "Mermelada de fresa",
+    "brand": "La quesera de la vera",
+    "EAN": "10271414",
+    "img":"https://res.cloudinary.com/dwyrhzuoj/image/upload/v1680257780/applergic/mermelada-extra-de-fresa-artesana.jpg",
+    "components": [
+      "63f33eabdad6960d60dd0465",
+      "63f33eabdad6960d60dd0460",
+      "63f33eabdad6960d60dd045a",
+      "63f33eabdad6960d60dd0457",
+      "63f33c3f392ab8494126501d",
+    ]
+  },
+];
+
+const products_inicial=[
+  {
+    "_id": "63f34eabfb3892b2cfad604c",
+    "name": "Galletas de avena orgánicas",
+    "brand": "Green Valley",
+    "EAN": "2902266000771",
     "img":"https://m.media-amazon.com/images/I/81EfaZgPMTL._AC_UF8941000_QL80_.jpg",
     "components": [
       "63f33eabdad6960d60dd0468",
@@ -371,6 +739,7 @@ const products=[
     ]
   },
 ];
+
 
 mongoose.set("strictQuery", false);
 

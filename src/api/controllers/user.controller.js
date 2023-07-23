@@ -12,7 +12,7 @@ const register = async(req, res, next) => {
             return next();
         }
         if(!validationPassword(newUser.password)){
-            res.status(400).send({code:400, message:'Invalid password'})
+            res.status(400).send({code:400, message:'contraseña invalida'})
             return next();
         }
         const users = await User.find({email:newUser.email})

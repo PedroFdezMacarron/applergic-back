@@ -1,0 +1,53 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "5eb18aac-16f5-4a76-a99a-da114c821672",
+      "connectionOptions": {
+        "connectionString": "mongodb+srv://root:root@cluster0.acsmzxx.mongodb.net/test"
+      },
+      "favorite": {
+        "name": "atlas ejemplo",
+        "color": "color7"
+      },
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1673425351534"
+        }
+      }
+    },
+    {
+      "id": "48a9d6b0-0c00-4675-9721-849f3fd1f47b",
+      "connectionOptions": {
+        "connectionString": "mongodb+srv://amg:root@cluster0.umzreb4.mongodb.net/test"
+      },
+      "favorite": {
+        "name": "discoteca",
+        "color": "color5"
+      },
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1676284793738"
+        }
+      }
+    },
+    {
+      "id": "f1ac2793-392c-46da-a072-d4ed52a8b885",
+      "connectionOptions": {
+        "connectionString": "mongodb+srv://root:rooot@cluster0.flkbfun.mongodb.net/test"
+      },
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1680553025374"
+        }
+      },
+      "favorite": {
+        "name": "pruebas de MONGOOSE",
+        "color": "color1"
+      }
+    }
+  ]
+}

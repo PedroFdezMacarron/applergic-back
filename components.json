@@ -1,0 +1,241 @@
+[{
+  "_id": {
+    "$oid": "63f33c3f392ab8494126501d"
+  },
+  "name": "Aceitunas negras",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0456"
+  },
+  "name": "Aceitunas verdes",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0457"
+  },
+  "name": "Acidulante",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0458"
+  },
+  "name": "Alcaparras",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0459"
+  },
+  "name": "Anchoas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd045a"
+  },
+  "name": "Azúcar",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd045b"
+  },
+  "name": "Azúcar glas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd045c"
+  },
+  "name": "Azúcar moreno",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd045d"
+  },
+  "name": "Caldo de pollo",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd045e"
+  },
+  "name": "Carne de cerdo",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd045f"
+  },
+  "name": "Carne de vacuno",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0460"
+  },
+  "name": "Cebolla",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0461"
+  },
+  "name": "Cebolla frita",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0462"
+  },
+  "name": "Canela",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0463"
+  },
+  "name": "Chorizo",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0464"
+  },
+  "name": "Chocolate negro",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0465"
+  },
+  "name": "Condimentos",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0466"
+  },
+  "name": "Especias",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0467"
+  },
+  "name": "Guisantes",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0468"
+  },
+  "name": "Harina de almendras",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0469"
+  },
+  "name": "Harina de trigo",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd046a"
+  },
+  "name": "Jamón serrano",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd046b"
+  },
+  "name": "Leche",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd046c"
+  },
+  "name": "Levadura",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd046d"
+  },
+  "name": "Levadura en polvo",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd046e"
+  },
+  "name": "Mantequilla",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd046f"
+  },
+  "name": "Miel",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0470"
+  },
+  "name": "Pimentón",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0471"
+  },
+  "name": "Pimiento rojo",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0472"
+  },
+  "name": "Pimiento verde",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0473"
+  },
+  "name": "Pollo",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0474"
+  },
+  "name": "Queso",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0475"
+  },
+  "name": "Sal",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0476"
+  },
+  "name": "Sal marina",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0477"
+  },
+  "name": "Salchicha",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0478"
+  },
+  "name": "Tomate",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd0479"
+  },
+  "name": "Vainilla",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd047a"
+  },
+  "name": "Vitamina A",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd047b"
+  },
+  "name": "Vitamina B",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f33eabdad6960d60dd047c"
+  },
+  "name": "Zanahoria",
+  "__v": 0
+}]

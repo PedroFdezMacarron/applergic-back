@@ -1,0 +1,272 @@
+[{
+  "_id": {
+    "$oid": "63e54e7730c2e623c675f5b3"
+  },
+  "name": "Nerea Fernández",
+  "email": "nerea@nerea.com",
+  "phone": "+34 111-444-333",
+  "password": "$2b$10$BB6BooSb1NSz7GV41CDVseZjAesm4J.K.JAoM4XushYJ.uvrHKAZ6",
+  "photourl": "",
+  "intolerances": [
+    {
+      "$oid": "63ecc4b1f5b83895ecf0b0fd"
+    },
+    {
+      "$oid": "63ecc4b1f5b83895ecf0b101"
+    }
+  ],
+  "diaryProducts": [
+    {
+      "notes": "notas del producto galletas del diario",
+      "date": {
+        "$date": {
+          "$numberLong": "1676764800000"
+        }
+      },
+      "_id": {
+        "$oid": "63f34eabfb3892b2cfad604c"
+      }
+    },
+    {
+      "notes": "notas del producto de Nonna's Kitchen",
+      "date": {
+        "$date": {
+          "$numberLong": "1676851200000"
+        }
+      },
+      "_id": {
+        "$oid": "63f34eabfb3892b2cfad604d"
+      }
+    },
+    {
+      "notes": "notas del producto de Nonna's Kitchen",
+      "date": {
+        "$date": {
+          "$numberLong": "1676851200000"
+        }
+      },
+      "_id": {
+        "$oid": "63f34eabfb3892b2cfad604e"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e3fec5be74d20951221460"
+  },
+  "name": "Pedro Fernández",
+  "email": "pedro@pedro.com",
+  "phone": "+34 222-444-333",
+  "password": "$2b$10$WYw8qD7sKwYvIQfZ2Ap9hOJzDqwlR7WnnpBf2oHpgMyQ3HnevHB2q",
+  "photourl": "https://avatars.githubusercontent.com/u/117455326?s=400&u=aa6acaed286d86bc4fbfb37a2b1a0095f480f4d1&v=4",
+  "contactName": "Sara García López",
+  "intolerances": [
+    {
+      "$oid": "63ecc4b1f5b83895ecf0b0f7"
+    },
+    {
+      "$oid": "63f33eabdad6960d60dd0468"
+    }
+  ],
+  "diaryProducts": [
+    {
+      "notes": "notas del producto galletas del diario",
+      "date": {
+        "$date": {
+          "$numberLong": "1676764800000"
+        }
+      },
+      "_id": {
+        "$oid": "63f34eabfb3892b2cfad604c"
+      }
+    },
+    {
+      "notes": "notas del producto de Nonna's Kitchen",
+      "date": {
+        "$date": {
+          "$numberLong": "1676851200000"
+        }
+      },
+      "_id": {
+        "$oid": "63f34eabfb3892b2cfad604e"
+      }
+    }
+  ],
+  "__v": 3,
+  "contactEmail": "sara@garcia.com",
+  "contactPhone": "555-555-222",
+  "insuranceCompany": "Adeslas / Póliza:1112255"
+},{
+  "_id": {
+    "$oid": "63e5504972314778f6e32de9"
+  },
+  "name": "Alba Mozas",
+  "email": "alba@alba.com",
+  "phone": "+34 333-444-333",
+  "password": "$2b$10$ohvodrpeN09kFtHvkPgkWeZduKOVqFE4xuAquCL4sz3lLSQD0pbra",
+  "photourl": "https://media.licdn.com/dms/image/D5603AQGvBO7LqdyIIw/profile-displayphoto-shrink_800_800/0/1674295033343?e=1682553600&v=beta&t=w_BbZFMv6HEMAEXQFbfI7fdD8v17fgBV0oXoCD-wg2I",
+  "intolerances": [
+    {
+      "$oid": "63ecc4b1f5b83895ecf0b0f2"
+    },
+    {
+      "$oid": "63ecc4b1f5b83895ecf0b0f5"
+    },
+    {
+      "$oid": "63ecc4b1f5b83895ecf0b103"
+    },
+    {
+      "$oid": "63ecc4b1f5b83895ecf0b105"
+    },
+    {
+      "$oid": "63ecc4b1f5b83895ecf0b0e7"
+    },
+    {
+      "$oid": "63ecc4b1f5b83895ecf0b10b"
+    }
+  ],
+  "diaryProducts": [
+    {
+      "notes": "notas del producto galletas del diario",
+      "date": {
+        "$date": {
+          "$numberLong": "1676764800000"
+        }
+      },
+      "_id": {
+        "$oid": "63f34eabfb3892b2cfad604c"
+      }
+    },
+    {
+      "notes": "notas del producto de Nonna's Kitchen",
+      "date": {
+        "$date": {
+          "$numberLong": "1676851200000"
+        }
+      },
+      "_id": {
+        "$oid": "63f34eabfb3892b2cfad604d"
+      }
+    },
+    {
+      "notes": "notas del producto de Nonna's Kitchen",
+      "date": {
+        "$date": {
+          "$numberLong": "1676851200000"
+        }
+      },
+      "_id": {
+        "$oid": "63f34eabfb3892b2cfad604e"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5508272314778f6e32dec"
+  },
+  "name": "Marcos Fraile",
+  "email": "marcos@marcos.com",
+  "phone": "+34 555-444-333",
+  "password": "$2b$10$WMwUrb2I1saXP92GR1MZhuPC4NwQtdMW5EcN/HoXMUBhB35AzEtba",
+  "photourl": "https://media.licdn.com/dms/image/D4D03AQFj2pMg-Cp6ug/profile-displayphoto-shrink_200_200/0/1676667381042?e=1682553600&v=beta&t=BaMq7-goh_IFrf5nKwVKlASsATtZ0ArYFgFq0yVfjsM",
+  "intolerances": [
+    {
+      "$oid": "63ecc4b1f5b83895ecf0b0e4"
+    },
+    {
+      "$oid": "63ecc4b1f5b83895ecf0b0e8"
+    },
+    {
+      "$oid": "63ecc4b1f5b83895ecf0b100"
+    }
+  ],
+  "diaryProducts": [
+    {
+      "notes": "notas del producto galletas del diario",
+      "date": {
+        "$date": {
+          "$numberLong": "1676764800000"
+        }
+      },
+      "_id": {
+        "$oid": "63f34eabfb3892b2cfad604c"
+      }
+    }
+  ],
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "6401ac323e38490dd67970ac"
+  },
+  "name": "Pedro Fernandez",
+  "email": "pedrofernandezmacarron@gmail.com",
+  "phone": "633000149",
+  "password": "$2b$10$tG4j6bs156/V/89M/wb0s.LyFjCrhClKsDK6lRehmLO69XLz0t22a",
+  "photourl": "https://avatars.githubusercontent.com/u/117455326?s=400&u=aa6acaed286d86bc4fbfb37a2b1a0095f480f4d1&v=4",
+  "contactName": "Carlos García",
+  "contactEmail": "pedrofernandezmacarron@gmail.com",
+  "contactPhone": "633000149",
+  "insuranceCompany": "adeslas/121212",
+  "intolerances": [
+    {
+      "$oid": "63f33eabdad6960d60dd045a"
+    },
+    {
+      "$oid": "63f33eabdad6960d60dd0458"
+    },
+    {
+      "$oid": "63f33eabdad6960d60dd045d"
+    },
+    {
+      "$oid": "63f33eabdad6960d60dd0467"
+    },
+    {
+      "$oid": "63f33eabdad6960d60dd0468"
+    },
+    {
+      "$oid": "63f33eabdad6960d60dd0472"
+    },
+    {
+      "$oid": "63f33eabdad6960d60dd0476"
+    },
+    {
+      "$oid": "63f33eabdad6960d60dd047c"
+    }
+  ],
+  "diaryProducts": [
+    {
+      "notes": "sin notas",
+      "date": {
+        "$date": {
+          "$numberLong": "1677831240000"
+        }
+      },
+      "_id": {
+        "$oid": "63f34eabfb3892b2cfad6063"
+      }
+    }
+  ],
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "640c6f3769a107841c0fd6f9"
+  },
+  "name": "Marcos Fraile Fernández",
+  "email": "marcoilefdz02@gmail.com",
+  "phone": "640532276",
+  "password": "$2b$10$7BE0ji62QFHFV2XjXf68SO8JAFLBu9Ri3bpAwt.f.DSvtj8Upf3Ia",
+  "photourl": "https://avatars.githubusercontent.com/u/117455326?s=400&u=aa6acaed286d86bc4fbfb37a2b1a0095f480f4d1&v=4",
+  "contactName": "Pepito",
+  "contactEmail": "Ttyh",
+  "contactPhone": "640532276",
+  "insuranceCompany": "eeee",
+  "intolerances": [
+    {
+      "$oid": "63f33c3f392ab8494126501d"
+    }
+  ],
+  "diaryProducts": [],
+  "__v": 0
+}]
